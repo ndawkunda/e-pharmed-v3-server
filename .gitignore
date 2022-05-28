@@ -1,3 +1,4 @@
 /node_modules
 /seeders
 /data
+.env.local

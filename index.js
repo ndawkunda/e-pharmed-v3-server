@@ -24,6 +24,10 @@ app.use('/api/v1/brands', brandRoutes)
 app.use('/api/v1/medical_terms', medicalTermRoutes)
 app.use('/api/v1/officines', officineRoutes)
 
+app.get('/', (req, res) => {
+  res.send('Welcome to e-Pharmed V3 API')
+})
+
 const PORT = process.env.PORT || 5000
 
 connectDB()
