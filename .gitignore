@@ -2,3 +2,4 @@
 /seeders
 /data
 .env.local
+.env
